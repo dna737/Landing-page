@@ -132,18 +132,69 @@ img{
 
 .part-3{
     background-color: #e5e7eb;
-    height: 200px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.text-3{
     text-align: center;
+    margin-top: 200px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.text-3-person{
+   margin-left: 67%;  
+   font-weight: bold;
+}
+
+.blue-box{
+    background-color: #3882f6;
+    padding: 24px 50px;
+    border-radius: 10px;
+}
+
+.part-4{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    height: 250px;
+}
+
+
+
+.light{
+    font-weight: 320;
+    margin: 0;
+    display: block;
+}
+
+.final{
+    display: flex;
+}
+
+.final .white-border{
+    border: 0.5px solid white;
+    font-size: 17px;
+    font-weight: 800;
+    box-sizing: border-box;
+    width: 119.3px;
+    height: 32.2667px;
+    padding: 0;
+    margin: 20px 0 0 100px;
+}
+
+.footer{
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80px;
 }
 
-/* .text-3{
-    margin-top: auto;
-}
 
-.text-3-author{
-    margin-bottom: auto;
 
-} */
